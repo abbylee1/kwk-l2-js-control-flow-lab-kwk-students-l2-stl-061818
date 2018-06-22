@@ -17,7 +17,7 @@ function scuberGreetingForFeet(feet){
     switch (tip) {
       case 'generous':
         return "Thank you so much."
-      case 'Not as generous':
+      case "Not as generous":
         return "Thank you."
       default: 
         return "Bye."
