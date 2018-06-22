@@ -10,13 +10,16 @@ function scuberGreetingForFeet(feet){
   }
   
   function ternaryCheckCity(city) {
-    if (city == NYC) {
+    if (city ? "NYC" ) {
       return 'Ok, sounds good.';}
     else {
       return 'No go.'
     }
   }
   
+  function getFee(isMember) {
+  return (isMember ? "$2.00" : "$10.00");
+}
   function switchOnCharmFromTip(tip) {
     
   }
