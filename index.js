@@ -13,6 +13,6 @@ function scuberGreetingForFeet(feet){
     if (city = NYC) {
       return 'Ok, sounds good.';}
     else {
-      return 
+      return 'No go.'
     }
   }
