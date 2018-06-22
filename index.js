@@ -5,6 +5,6 @@ function scruberGreetingForFeet(feet) ;
   else if (feet > 2000) {
     console.log('I will gladly take your thirty bucks.');
   else {
-    console.log("Input a real foot")
+    console.log('No can do.')
   }
   }
